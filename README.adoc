@@ -1,0 +1,4 @@
+Minimal reproducer for https://hibernate.atlassian.net/browse/HHH-13432
+
+Import into your IDE and active the the profile `hibernate4` then run `Application` to see a non-null output.
+Change the active profile to `hibernate5` and run `Application` to see the output is now `null`.
